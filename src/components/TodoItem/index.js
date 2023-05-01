@@ -12,20 +12,22 @@ dispatch(deleteTodo({id: id}))
     }
 
     return (
-        <li className={`list-group-item ${completed && 'list-group-item-success'}`}>
-            <div className='d-flex justify-content-between'>
-				<span className='d-flex align-items-center'>
+
+    <li className='todo__item' >
+        <div>
+				<p className='todo__item-title' >
 					<input
                         type='checkbox'
-                        className='mr-3'
                         checked={completed}
                         onChange={handleCompleteClick}
+                        className='todo__item-input'
                     />
                     {title}
-				</span>
-                <button onClick={handleDeleteClick} className='btn btn-danger'>Delete</button>
-            </div>
-        </li>
+				</p>
+            <button  className='todo__item-button' onClick={handleDeleteClick} >Delete</button>
+        </div>
+    </li>
+
     );
 };
 

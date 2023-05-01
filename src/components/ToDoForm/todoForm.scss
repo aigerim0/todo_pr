@@ -1,0 +1,24 @@
+.todo {
+  &__form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+
+    &-input {
+      padding: 5px 0 5px 5px;
+      width: 30%;
+      font-size: 18px;
+    }
+    &-button{
+      padding: 8px 30px;
+      background: #2b70db;
+      border: none;
+      font-size: 18px;
+      margin-left: -2px;
+
+    }
+  }
+
+
+}

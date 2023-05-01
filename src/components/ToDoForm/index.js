@@ -17,17 +17,17 @@ const ToDoForm = () => {
     };
 
     return (
-        <form onSubmit={onSubmit} className='form-inline mt-3 mb-3'>
+        <form className='todo__form' onSubmit={onSubmit} >
 
             <input
+                className='todo__form-input'
                 type='text'
-                className='form-control mb-2 mr-sm-2'
                 placeholder='Add todo...'
                 value={value}
                 onChange={(event) => setValue(event.target.value)}
             />
 
-            <button type='submit' className='btn btn-primary mb-2 d-flex justify-content-center'>
+            <button className='todo__form-button' type='submit' >
                 Submit
             </button>
         </form>

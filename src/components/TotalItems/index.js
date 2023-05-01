@@ -6,7 +6,7 @@ const TotalItems = () => {
          state.todos.filter((todo) => todo.completed === true) )
 
 
-    return <h4 className='mt-3'>Total Complete Items: {completedTodos.length}</h4>
+    return <h4 className='app__total' >Total Complete Items: {completedTodos.length}</h4>
 
 };
 

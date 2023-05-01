@@ -1,1 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+  width: 39%;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.app {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.app__title {
+  font-size: 38px;
+}
+.app__total {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.todo__form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0;
+}
+.todo__form-input {
+  padding: 5px 0 5px 5px;
+  width: 30%;
+  font-size: 18px;
+}
+.todo__form-button {
+  padding: 8px 30px;
+  background: #2b70db;
+  border: none;
+  font-size: 18px;
+  margin-left: -2px;
+}
+
+.todo__item {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #000;
+}
+.todo__item-title {
+  font-size: 20px;
+}
+.todo__item-input {
+  margin-right: 8px;
+}
+.todo__item-button {
+  border: none;
+  background: #e71f2d;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 2px;
+}
+.todo__item div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}

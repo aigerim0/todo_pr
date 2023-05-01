@@ -1,0 +1,25 @@
+.todo{
+  &__item{
+  margin-bottom: 10px;
+ border-bottom: 1px solid #000;
+
+    &-title{
+      font-size: 20px;
+    }
+    &-input{
+      margin-right: 8px;
+    }
+    &-button{
+      border: none;
+      background: #e71f2d;
+      padding: 8px 16px;
+      font-size: 16px;
+      border-radius:2px ;
+    }
+    & div{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}

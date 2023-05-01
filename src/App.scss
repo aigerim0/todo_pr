@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+ul{
+  list-style: none;
+  width: 39%;
+  border: 1px solid black;
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  max-width: 1300px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.app{
+margin-top: 60px;
+  display: flex;
+ flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title{
+    font-size: 38px;
+  }
+  &__total{
+    margin-top: 20px;
+    font-size: 24px;
+  }
+}
+
+
+@import "./components/ToDoForm/todoForm";
+@import "./components/TodoItem/todoItem";
